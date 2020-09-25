@@ -16,24 +16,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-<<<<<<< HEAD
-    "node-fetch": "^2.6.0",
-    "nodemon": "^2.0.4"
-  },
-  "devDependencies": {
-    "chalk": "^4.1.0",
-    "cypress": "^5.1.0",
-    "cypress-html-validate": "^1.2.2",
-    "cypress-wait-until": "^1.7.1",
-    "dotenv": "^8.2.0",
-    "email-validator": "^2.0.4",
-    "eslint": "^7.4.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-cypress": "^2.11.1",
-    "eslint-plugin-import": "^2.22.0",
-    "html-validate": "^3.0.0",
-    "recursive-readdir": "^2.2.2"
-=======
     "node-fetch": "^2.6.1",
     "nodemon": "^2.0.4"
   },
@@ -50,6 +32,5 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-cypress": "^2.11.1",
     "eslint-plugin-import": "^2.22.0"
->>>>>>> cc14903d35ae2881b3a6a117d700ef58894cc592
   }
 }
