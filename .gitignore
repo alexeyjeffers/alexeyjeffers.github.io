@@ -47,3 +47,6 @@ bower_components
 node_modules
 **/*/node_modules
 >>>>>>> cc14903d35ae2881b3a6a117d700ef58894cc592
+public/lab_1/index.html
+public/lab_2/index.html
+public/lab_3/index.html
