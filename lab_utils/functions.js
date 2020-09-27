@@ -63,13 +63,6 @@ function excludeAnswerKey(file, stats) {
   return stats.isDirectory() && path.basename(file) === 'answer_key';
 }
 
-<<<<<<< HEAD
-=======
-function excludeInstructions(file) {
-  return path.basename(file).includes('instructions');
-}
-
->>>>>>> cc14903d35ae2881b3a6a117d700ef58894cc592
 function partition(array, isValid) {
   return array.reduce(
     ([pass, fail], elem) => (isValid(elem) ? [[...pass, elem], fail] : [pass, [...fail, elem]]),
@@ -94,10 +87,6 @@ export {
   processHTML,
   excludeNonHTML,
   excludeAnswerKey,
-<<<<<<< HEAD
-=======
-  excludeInstructions,
->>>>>>> cc14903d35ae2881b3a6a117d700ef58894cc592
   cleanTerminalOutput,
   partition,
   severeErrorTest,
