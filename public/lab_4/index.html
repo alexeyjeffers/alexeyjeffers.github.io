@@ -5,7 +5,7 @@ hello world
   <head>
     <meta charset="utf-8">
     <title>Alexey Jeffers Lab 4</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
    
   </head>
 
@@ -19,7 +19,9 @@ hello world
         <ul class="flex-outer">
           <li>
             <label for="fname">First Name</label>
-            <input type="text" 
+            <input 
+                name ="fname"
+                type="text" 
                 id="fname" 
                 placeholder="Enter your first name here" 
                 maxlength="140">
@@ -27,7 +29,9 @@ hello world
 
           <li>
             <label for="lname">Last Name</label>
-            <input type="text" 
+            <input 
+                name ="lname" 
+                type="text" 
                 id="lname" 
                 placeholder="Enter your last name here" 
                 maxlength="140">
@@ -35,14 +39,18 @@ hello world
 
           <li>
             <label for="email">Email</label>
-            <input type="email" 
+            <input 
+                name="email"
+                type="email" 
                 id="email" 
                 placeholder="Enter your email here">
           </li>
 
           <li>
             <label for="phone">Phone</label>
-            <input type="tel" 
+            <input 
+                name = "phone"
+                type="tel" 
                 id="phone" 
                 placeholder="Enter your phone here">
           </li>
@@ -64,16 +72,16 @@ hello world
               <ul class="flex-inner">
                 <li>
                   <input type="checkbox" id="eighteen-to-thirtyfive">
-                  <label for="eighteen-to-thirtyfive">18-35</label>
+                  <label name = "eighteen-to-thirtyfive" for="eighteen-to-thirtyfive">18-35</label>
                 </li>
                 <li>
                   <input type="checkbox" id="thirtyfive-to-fifty">
-                  <label for="thirtyfive-to-fifty">35-50</label>
+                  <label name = "thirtyfive-to-fifty"for="thirtyfive-to-fifty">35-50</label>
                 </li>
 
                 <li>
                     <input type="checkbox" id="fifty-to-sixtyfive">
-                    <label for="fifty-to-sixtyfive">50-65</label>
+                    <label name = "fifty-to-sixtyfivefifty-to-sixtyfive">50-65</label>
                   </li>
                 <!-- more list items here -->
               </ul>
