@@ -1,6 +1,6 @@
 /*CSS*/
 body {
-
+background-color: aquamarine;
 }
 
 .wrapper {
@@ -8,10 +8,18 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 
 }
 
 .header {
+    margin-bottom: 15px;
+    padding: flex;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -24,5 +32,5 @@ body {
 }
 
 .generic_2 {
-    
+
 }
