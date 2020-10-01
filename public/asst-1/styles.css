@@ -12,14 +12,16 @@ background-color: aquamarine;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
 
 }
 
 .header {
     margin-bottom: 15px;
-    padding: flex;
+    padding: 15px;
     display: flex;
     flex-direction: row;
+    margin-right: 15px;
 
 }
 
