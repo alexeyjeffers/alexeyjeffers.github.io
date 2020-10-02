@@ -22,6 +22,8 @@ background-color: aquamarine;
     display: flex;
     flex-direction: row;
     margin-right: 15px;
+    flex-wrap: wrap;
+    align-items: center;
 
 }
 
