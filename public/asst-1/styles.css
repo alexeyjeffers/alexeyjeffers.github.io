@@ -40,6 +40,7 @@ align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center ;
 }
  .header h1 {
      text-align: center;
