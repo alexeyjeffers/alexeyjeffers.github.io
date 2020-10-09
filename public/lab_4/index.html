@@ -10,12 +10,14 @@ hello world
   </head>
 
   <body>
+    <div class="wrapper">
+      <div class="container">
+          <div class="header">
+              <h1>Alexey Jeffers Lab 4</h1>
+          </div>
 
-    <div class="header"> <!--header tag-->
-        <h1>Alexey Jeffers Lab 4</h1>
-    </div>
-
-    <form>
+   
+          <form action="/api" method="post">
         <ul class="flex-outer">
           <li>
             <label for="fname">First Name</label>
@@ -89,7 +91,7 @@ hello world
           </li>
 
           <li> 
-            <button name = "submit" type="submit" id = "submit"> Submit </button>
+            <button class="button" id="submit_button" name="submit_button" type="submit">Submit form</button>
           </li>
         </ul>
       </form>
