@@ -90,9 +90,21 @@ hello world
           <li> 
             <button class="button" id="submit_button" name="submit_button" type="submit">Submit form</button>
           </li>
+          <li> 
+            <button class="button" id="submit_button" name="submit_button" type="submit">Activation</button>
+          </li>
         </ul>
       </form>
       </div>
     </div>
+
+    function testFunction() {
+      fetch('/api')
+      .then((response) => response.text())
+      .then((response) => {
+           console.log(response);
+      })
+ }
+ 
 
   </body>
