@@ -89,10 +89,11 @@ hello world
 
           <li> 
             <button class="button" id="submit_button" name="submit_button" type="submit">Submit form</button>
+            <button onClick="testFunction()" id="activate_button" class = "button" name="activate_button" type="button">Activate</button>
           </li>
-          <li> 
-            <button class="button" id="act_button" name="act_button" type="submit">Activate</button>
-          </li>
+          
+           
+          
         </ul>
       </form>
       </div>
@@ -102,11 +103,18 @@ hello world
       fetch('/api')
       .then((response) => response.text())
       .then((response) => {
-           console.log(response);
+        const fruits = ['kiwi','dragonfruit', 'apple'];
+        const checks = document.querySelectorAll('.flex-inner label') 
+        console.log(checks.length,checks[0]);
+        checks.forEach(((check, i)=>{
+          console.log(check,i);
+          check.intterText=fruits[i];
+        }))
+           
       })
  }
 
- <script src="scripts/main.js"></script>
+   <script src="scripts/main.js"></script>
  
 
   </body>
