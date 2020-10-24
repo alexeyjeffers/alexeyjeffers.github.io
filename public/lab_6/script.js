@@ -31,6 +31,8 @@ document.body.addEventListener('submit', async (e) => {
     .then((fromServer) => {
       // You're going to do your lab work in here. Replace this comment.
       console.log('fromServer', fromServer);
+      const reverseList = newArr2.sort((a,b)=> sortFunction(b,a, "name"));
     })
     .catch((err) => console.log(err));
+    
 });
