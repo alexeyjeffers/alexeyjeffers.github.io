@@ -1,5 +1,3 @@
-const { blue, red, green } = require("chalk");
-
 function convertRestaurantsToCategories(restaurantList) {
   // process your restaurants here!
 
@@ -70,12 +68,8 @@ function convertRestaurantsToCategories(restaurantList) {
 function makeYourOptionsObject(datapointsFromRestaurantsList) {
   // set your chart configuration here!
   CanvasJS.addColorSet('customColorSet1', [
+    '#0066FF', '#7385AA', '#ACD373', '#DF656A'
     // add an array of colors here https://canvasjs.com/docs/charts/chart-options/colorset/
-    '#2F4F4F',
-    '#008080',
-    '#2E8B57',
-    '#3CB371',
-    '#90EE90'
   ]);
 
   return {
@@ -96,15 +90,12 @@ function makeYourOptionsObject(datapointsFromRestaurantsList) {
 
       scaleBreaks: {
         customBreaks: [{
-          color: blue,
           startValue: 40,
           endValue: 50
         }, {
-          color: red,
           startValue: 85,
           endValue: 100
         }, {
-          color: green,
           startValue: 140,
           endValue: 175
         }]
