@@ -65,7 +65,6 @@ function convertRestaurantsToCategories(restaurantList) {
 
   window.onload = loadData;
 
-  console.table(random);
   return list;
 }
 
