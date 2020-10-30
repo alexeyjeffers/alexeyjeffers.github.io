@@ -14,7 +14,7 @@ function convertRestaurantsToCategories(restaurantList) {
   function getRandomIntInclusive(min, max) {
     const min1 = Math.ceil(min);
     const max1 = Math.floor(max);
-    return Math.floor(Math.random() * (max1 - min1 + 1) + min1); 
+    return Math.floor(Math.random() * (max1 - min1 + 1) + min1);
   }
 
   async function loadData() {
@@ -27,6 +27,8 @@ function convertRestaurantsToCategories(restaurantList) {
       const restaurant = json[which]; // we are not worrying about uniqueness here
       return restaurant;
     });
+
+    console.table(randomRestaurantsArray); // This shows the shape of our data as it arrives
 
     const div = document.createElement('div');
     div.innerHTML = `<h2>What we have</h2> <br />${JSON.stringify(randomRestaurantsArray[0])}<br /><br />`;
@@ -48,6 +50,8 @@ function convertRestaurantsToCategories(restaurantList) {
       }
       return collection;
     }, []);
+
+    console.table(newDataShape);
 
     const div2 = document.createElement('div');
     const obj = {
