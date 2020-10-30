@@ -28,8 +28,6 @@ function convertRestaurantsToCategories(restaurantList) {
       return restaurant;
     });
 
-    console.table(randomRestaurantsArray); // This shows the shape of our data as it arrives
-
     const div = document.createElement('div');
     div.innerHTML = `<h2>What we have</h2> <br />${JSON.stringify(randomRestaurantsArray[0])}<br /><br />`;
     $('body').append(div);
@@ -50,8 +48,6 @@ function convertRestaurantsToCategories(restaurantList) {
       }
       return collection;
     }, []);
-
-    console.table(newDataShape);
 
     const div2 = document.createElement('div');
     const obj = {
