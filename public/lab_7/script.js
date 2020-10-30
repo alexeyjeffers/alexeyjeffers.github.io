@@ -63,7 +63,7 @@ function convertRestaurantsToCategories(restaurantList) {
 
   window.onload = loadData;
 
-  return list;
+  return restaurantList;
 }
 
 function makeYourOptionsObject(datapointsFromRestaurantsList) {
